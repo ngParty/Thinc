@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+}
+
+iframe {
+  width: 100%;
+  height: 450px;
+  border: 0;
+}
+
+paper-tabs::shadow #selectionBar {
+  background-color: red;
+}
+
+paper-tabs paper-tab::shadow #ink {
+  color: red;
+}
+
+paper-tab::shadow #ink {
+  color: red;
+}

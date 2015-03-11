@@ -1,0 +1,16 @@
+{
+  "name": "thinc",
+  "description": "Thin Client",
+  "main": "shell.html",
+  "window": {
+    "toolbar": false
+  },
+  "scripts": {
+    "postinstall": "bower install",
+    "prestart": "npm install",
+    "start": "node_modules/http-server/bin/http-server"
+  },
+  "devDependencies": {
+    "http-server": "^0.7.5"
+  }
+}

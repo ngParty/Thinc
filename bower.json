@@ -1,0 +1,21 @@
+{
+  "name": "thinc",
+  "version": "0.1.0",
+  "authors": [
+    "Mario Vejlupek <mario@vejlupek.cz>"
+  ],
+  "description": "Thin Client",
+  "main": "index.js",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "core-elements": "Polymer/core-elements#~0.5.5",
+    "paper-elements": "Polymer/paper-elements#~0.5.5",
+  }
+}
