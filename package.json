@@ -1,6 +1,7 @@
 {
   "name": "thinc",
   "description": "Thin Client",
+  "repository": "https://github.com/angie-party/Thinc.git",
   "main": "app://thinc/index.html",
   "window": {
     "title": "Thinc",
@@ -11,9 +12,11 @@
   "scripts": {
     "postinstall": "bower install",
     "prestart": "npm install",
-    "start": "node_modules/http-server/bin/http-server"
+    "start": "node_modules/nw/bin/nw .",
+    "develop": "node_modules/http-server/bin/http-server"
   },
   "devDependencies": {
-    "http-server": "^0.7.5"
+    "http-server": "^0.7.5",
+    "nw": "^0.12.0"
   }
 }

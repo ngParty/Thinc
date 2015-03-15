@@ -37,7 +37,7 @@
    * Select proper page based selected tab
    */
   function removeTab( tabIndex ) {
-    
+
     window.thinc.tabsBox.childNodes[ tabIndex ].remove();
     window.thinc.pagesBox.childNodes[ tabIndex ].remove();
 
@@ -69,7 +69,7 @@
     // Add tab
     let paperTab = document.createElement( 'paper-tab' );
     paperTab.noink = 'false'; // Disable ink ripple effect
-    
+
     let tabTitle = document.createElement( 'div' );
     tabTitle.innerText = 'New tab';
     tabTitle.className = 'title';
@@ -101,7 +101,7 @@
    * Show or hide tab bar if there are more than one tab
    */
   function toggleTabsBar() {
- 
+
     let currentPageIndex = window.thinc.tabsBox.selected;
     let currentPageFrame = window.thinc.pagesBox.childNodes[ currentPageIndex ];
 
@@ -196,9 +196,11 @@
 
     currentTab.querySelector( '.title' ).innerText = pageTitle;
 
+    window.document.title = pageTitle;
+
   }
 
-  
+
 
 
   /**
