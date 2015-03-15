@@ -1,2 +1,2 @@
 # Thinc
-ECMAScript Thin Client based on 
+ECMAScript Thin Client based on nw.js and Web Components
