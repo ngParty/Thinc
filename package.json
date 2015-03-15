@@ -1,7 +1,7 @@
 {
   "name": "thinc",
   "description": "Thin Client",
-  "main": "app://thinc/shell.html",
+  "main": "app://thinc/index.html",
   "window": {
     "title": "Thinc",
     "toolbar": false,
