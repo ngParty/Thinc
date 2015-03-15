@@ -3,34 +3,19 @@
   <head>
     <title>Thinc</title>
 
-    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
 
-    <script src="bower_components/iframe-resizer/js/iframeResizer.min.js"></script>
+    <link rel="stylesheet" href="style.css">
 
     <link rel="import" href="bower_components/core-pages/core-pages.html">
     <link rel="import" href="bower_components/paper-tabs/paper-tabs.html">
 
   </head>
   <body>
-    <paper-tabs selected="0">
-      <paper-tab>Homecredit</paper-tab>
-      <paper-tab>Net</paper-tab>
-    </paper-tabs>
 
-    <core-pages>
-      <div><iframe src="http://www.homecredit.cz/" nwfaketop></iframe></div>
-      <div><iframe src="http://www.homecredit.net/" nwfaketop></iframe></div>
-    </core-pages>
+    <paper-tabs></paper-tabs>
 
-    <script>
-
-      var pages = document.querySelector('core-pages');
-      var tabs = document.querySelector('paper-tabs');
-      tabs.addEventListener('core-select', function() {
-        pages.selected = tabs.selected;
-      });
-
-    </script>
-
+    <core-pages></core-pages>
+    
   </body>
 </html>

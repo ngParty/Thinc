@@ -1,9 +1,12 @@
 {
   "name": "thinc",
   "description": "Thin Client",
-  "main": "shell.html",
+  "main": "app://thinc/shell.html",
   "window": {
-    "toolbar": false
+    "title": "Thinc",
+    "toolbar": false,
+    "width": 1024,
+    "height": 748
   },
   "scripts": {
     "postinstall": "bower install",

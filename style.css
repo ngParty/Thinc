@@ -16,6 +16,35 @@ paper-tabs paper-tab::shadow #ink {
   color: red;
 }
 
+paper-tabs {
+  box-shadow: 0px 2px 5px 0px rgba(50, 50, 50, 0.75);
+}
+
+paper-tab {
+  box-shadow: 2px 0px 5px 0px rgba(50, 50, 50, 0.75);
+}
+
 paper-tab::shadow #ink {
   color: red;
+}
+
+
+paper-tab > .title {
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+paper-tab > button {
+  background: red;
+  border-radius: 25px;
+  color: white;
+  font-weight: bold;
+
+  position: absolute;
+  top: 0.75rem;
+  right: 0.75rem;
+}
+
+paper-tab > button:focus{
+  outline: 0;
 }
