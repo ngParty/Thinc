@@ -1,5 +1,5 @@
 # Thinc
-ECMAScript Thin Client based on nw.js and Web Components
+ECMAScript 6 Thin Client based on nw.js and Web Components
 
 ## Why?
 
