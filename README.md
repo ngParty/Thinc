@@ -16,6 +16,6 @@ Simply by using [NW.js](http://nwjs.io/) and Web Components with [Polymer](http:
 * `$ npm install`
 * `$ npm start`
 
-This will open client window with example page, or you can see how tabs are working here http://angie-party.github.io/Thinc/.
+This will open client window with example page, or you can see how tabs are working here http://angie-party.github.io/Thinc/ remember you have to use **Google Chrome**.
 
 If you want to develop run `$ npm run develop` and open http://0.0.0.0:8080 in Google Chrome.
